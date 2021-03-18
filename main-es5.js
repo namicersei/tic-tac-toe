@@ -28,7 +28,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("\n\n<style>\n  \n</style>\n\n<!-- Toolbar -->\n<div>\n  <app-board>\n  </app-board>\n</div>\n\n\n<router-outlet></router-outlet>");
+            /* harmony default export */ __webpack_exports__["default"] = ("\n<style>\n  \n</style>\n\n<!-- Toolbar -->\n<div>\n  <app-board>\n  </app-board>\n</div>\n\n\n<router-outlet></router-outlet>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/board/board.component.html": 
@@ -39,7 +39,7 @@
         /***/ (function (module, __webpack_exports__, __webpack_require__) {
             "use strict";
             __webpack_require__.r(__webpack_exports__);
-            /* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"container\">\n    <div class=\"divRow\">\n        <app-square [winColor]=\"winner[0]\" (click)=\"handleSquareClick(0)\" [value]=\"board[0]\"></app-square>\n        <app-square [winColor]=\"winner[1]\" (click)=\"handleSquareClick(1)\" [value]=\"board[1]\"></app-square>\n        <app-square [winColor]=\"winner[2]\" (click)=\"handleSquareClick(2)\" [value]=\"board[2]\"></app-square>\n    </div>\n    <div class=\"divRow\">\n        <app-square [winColor]=\"winner[3]\" (click)=\"handleSquareClick(3)\" [value]=\"board[3]\"></app-square>\n        <app-square [winColor]=\"winner[4]\" (click)=\"handleSquareClick(4)\" [value]=\"board[4]\"></app-square>\n        <app-square [winColor]=\"winner[5]\" (click)=\"handleSquareClick(5)\" [value]=\"board[5]\"></app-square>\n    </div>\n    <div class=\"divRow\">\n        <app-square [winColor]=\"winner[6]\" (click)=\"handleSquareClick(6)\" [value]=\"board[6]\"></app-square>\n        <app-square [winColor]=\"winner[7]\" (click)=\"handleSquareClick(7)\" [value]=\"board[7]\"></app-square>\n        <app-square [winColor]=\"winner[8]\" (click)=\"handleSquareClick(8)\" [value]=\"board[8]\"></app-square>\n    </div>\n    <button type=\"button\" class=\"btn btn-success\" (click)=\"handleReset()\">Reset The Game</button>\n    <div *ngIf = \"!haveWinner\"><p><strong>Current Player: {{xTurn ? \"X\" : \"O\"}}</strong></p></div>\n    <div *ngIf = \"haveWinner\"><p><strong></strong></p></div>\n</div>");
+            /* harmony default export */ __webpack_exports__["default"] = ("\n<div class=\"container\">\n    <div class=\"divRow\">\n        <app-square [winColor]=\"winner[0]\" (click)=\"handleSquareClick(0)\" [value]=\"board[0]\"></app-square>\n        <app-square [winColor]=\"winner[1]\" (click)=\"handleSquareClick(1)\" [value]=\"board[1]\"></app-square>\n        <app-square [winColor]=\"winner[2]\" (click)=\"handleSquareClick(2)\" [value]=\"board[2]\"></app-square>\n    </div>\n    <div class=\"divRow\">\n        <app-square [winColor]=\"winner[3]\" (click)=\"handleSquareClick(3)\" [value]=\"board[3]\"></app-square>\n        <app-square [winColor]=\"winner[4]\" (click)=\"handleSquareClick(4)\" [value]=\"board[4]\"></app-square>\n        <app-square [winColor]=\"winner[5]\" (click)=\"handleSquareClick(5)\" [value]=\"board[5]\"></app-square>\n    </div>\n    <div class=\"divRow\">\n        <app-square [winColor]=\"winner[6]\" (click)=\"handleSquareClick(6)\" [value]=\"board[6]\"></app-square>\n        <app-square [winColor]=\"winner[7]\" (click)=\"handleSquareClick(7)\" [value]=\"board[7]\"></app-square>\n        <app-square [winColor]=\"winner[8]\" (click)=\"handleSquareClick(8)\" [value]=\"board[8]\"></app-square>\n    </div>\n    <button type=\"button\" class=\"btn btn-success\" (click)=\"handleReset()\">Reset The Game</button>\n    <div *ngIf = \"!haveWinner\"><p><strong>Current Player: {{xTurn ? \"X\" : \"O\"}}</strong></p></div>\n    <div *ngIf = \"haveWinner\"><p><strong>{{xTurn ? \"O\" : \"X\"}} is the winner!</strong></p></div>  \n</div>");
             /***/ 
         }),
         /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/square/square.component.html": 
@@ -771,7 +771,7 @@
           \***************************/
         /*! no static exports found */
         /***/ (function (module, exports, __webpack_require__) {
-            module.exports = __webpack_require__(/*! /Users/namratakhandelwal/tic-tac-toe/root/src/main.ts */ "./src/main.ts");
+            module.exports = __webpack_require__(/*! /Users/vasantvv/Desktop/test/tic-tac-toe/src/main.ts */ "./src/main.ts");
             /***/ 
         })
     }, [[0, "runtime", "vendor"]]]);

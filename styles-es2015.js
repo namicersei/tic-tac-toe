@@ -338,7 +338,7 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/namratakhandelwal/tic-tac-toe/root/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /Users/vasantvv/Desktop/test/tic-tac-toe/src/styles.css */"./src/styles.css");
 
 
 /***/ })
