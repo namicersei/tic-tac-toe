@@ -21,11 +21,13 @@ export class BoardComponent {
     this.xTurn = !this.xTurn;
   }
 
+  /** This function is triggered when either of the players wins the game! */
   playSound() {
     const audio1 = new Audio('https://srv-store3.gofile.io/download/2X6WTr/50b7d44e8fe35d99364f15b288309d7c/hasty-ba-dum-tss-615.mp3')
     audio1.play();
   }
 
+  /**Function to handle the action post a square click */
   handleSquareClick(index: number) {
     if (this.haveWinner == false) this.addSymbol(index);
     let indexes = this.winnercheckService.checkWinner(this.board, index)
@@ -36,7 +38,7 @@ export class BoardComponent {
     }
     indexes.map(item => this.winner[item] = true)
   }
-
+ /**This function is triggered to reset the game */
   handleReset() {
     this.winner = Array(9).fill(false);
     this.board = Array(9).fill(null);

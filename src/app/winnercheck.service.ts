@@ -111,6 +111,7 @@ export class WinnercheckService {
     return sum;
   }
 
+  /** This function basically tirggers 4 functions to check if there is a streak of the same player or not namely row, column, side diagonal, main diagonal */
   checkWinner(board: Array<string>, startingPoint: number) {
     this.count = 0;
     let twoDimensionalBoard: string[][]
