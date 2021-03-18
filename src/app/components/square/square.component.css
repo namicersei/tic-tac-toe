@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid greenyellow;
+    font-size: 70px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.winner {
+    background-color: greenyellow;
+}

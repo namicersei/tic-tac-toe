@@ -1,0 +1,16 @@
+.divRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    margin: 50px;
+}
