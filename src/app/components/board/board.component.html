@@ -17,5 +17,5 @@
     </div>
     <button type="button" class="btn btn-success" (click)="handleReset()">Reset The Game</button>
     <div *ngIf = "!haveWinner"><p><strong>Current Player: {{xTurn ? "X" : "O"}}</strong></p></div>
-    <div *ngIf = "haveWinner"><p><strong></strong></p></div>
+    <div *ngIf = "haveWinner"><p><strong>{{xTurn ? "O" : "X"}} is the winner!</strong></p></div>  
 </div>
